@@ -1,0 +1,26 @@
+[2024-11-04T23:09:26.349+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_reddit_pipeline.reddit_extraction manual__2024-11-04T23:09:24.727757+00:00 [queued]>
+[2024-11-04T23:09:26.357+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_reddit_pipeline.reddit_extraction manual__2024-11-04T23:09:24.727757+00:00 [queued]>
+[2024-11-04T23:09:26.359+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2024-11-04T23:09:26.370+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): reddit_extraction> on 2024-11-04 23:09:24.727757+00:00
+[2024-11-04T23:09:26.375+0000] {standard_task_runner.py:57} INFO - Started process 48 to run task
+[2024-11-04T23:09:26.382+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'etl_reddit_pipeline', 'reddit_extraction', 'manual__2024-11-04T23:09:24.727757+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/reddit_dag.py', '--cfg-path', '/tmp/tmpzaj00sg0']
+[2024-11-04T23:09:26.386+0000] {standard_task_runner.py:85} INFO - Job 3: Subtask reddit_extraction
+[2024-11-04T23:09:26.438+0000] {task_command.py:416} INFO - Running <TaskInstance: etl_reddit_pipeline.reddit_extraction manual__2024-11-04T23:09:24.727757+00:00 [running]> on host 670f27e5f990
+[2024-11-04T23:09:26.506+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Bruno Xie' AIRFLOW_CTX_DAG_ID='etl_reddit_pipeline' AIRFLOW_CTX_TASK_ID='reddit_extraction' AIRFLOW_CTX_EXECUTION_DATE='2024-11-04T23:09:24.727757+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-04T23:09:24.727757+00:00'
+[2024-11-04T23:09:26.510+0000] {logging_mixin.py:151} WARNING - Version 7.7.1 of praw is outdated. Version 7.8.1 was released Friday October 25, 2024.
+[2024-11-04T23:09:26.514+0000] {logging_mixin.py:151} INFO - connected to Reddit!
+[2024-11-04T23:09:27.702+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/pipelines/reddit_pipeline.py", line 8, in reddit_pipeline
+    posts = extract_posts(instance, subreddit, time_filter, limit)
+  File "/opt/airflow/etls/reddit_etl.py", line 26, in extract_posts
+    post = {key: post[key] for key in POST_FIELDS}
+NameError: name 'POST_FIELDS' is not defined
+[2024-11-04T23:09:27.725+0000] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=etl_reddit_pipeline, task_id=reddit_extraction, execution_date=20241104T230924, start_date=20241104T230926, end_date=20241104T230927
+[2024-11-04T23:09:27.744+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 3 for task reddit_extraction (name 'POST_FIELDS' is not defined; 48)
+[2024-11-04T23:09:27.798+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-11-04T23:09:27.812+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,41 @@
+id,title,score,num_comments,author,created_utc,url,over_18,edited,spoiler,stickied
+1glu70w,Top Skills for Data Engineers - Data from 100 Fortune 500 Job Descriptions,176,24,cryptoyash,2024-11-07 16:16:35,https://www.reddit.com/r/dataengineering/comments/1glu70w/top_skills_for_data_engineers_data_from_100/,False,False,False,False
+1glp2qy,A Blog for Data Engineers by Data Engineers,41,5,Standard_Aside_2323,2024-11-07 12:17:28,https://www.reddit.com/r/dataengineering/comments/1glp2qy/a_blog_for_data_engineers_by_data_engineers/,False,False,False,False
+1gleue6,Is it necessary to set up a dev env data warehouse/data lake/lakehouse only for storing data?,29,17,Stephen-Wen,2024-11-07 01:22:49,https://www.reddit.com/r/dataengineering/comments/1gleue6/is_it_necessary_to_set_up_a_dev_env_data/,False,False,False,False
+1glyn57,DuckDB vs. Polars vs. Daft: A Performance Showdown,23,25,Agitated_Key6263,2024-11-07 19:21:47,https://www.reddit.com/r/dataengineering/comments/1glyn57/duckdb_vs_polars_vs_daft_a_performance_showdown/,False,False,False,False
+1gloq2w,What are the soft skills for a data engineer? Can you tell me about your experiences with them?,14,8,shrestic_og,2024-11-07 11:57:11,https://www.reddit.com/r/dataengineering/comments/1gloq2w/what_are_the_soft_skills_for_a_data_engineer_can/,False,False,False,False
+1gljibn,Is there anyone who currently is using or thinks about 'Apache Seatunnel'.,10,6,Gold_Environment6248,2024-11-07 05:40:13,https://www.reddit.com/r/dataengineering/comments/1gljibn/is_there_anyone_who_currently_is_using_or_thinks/,False,False,False,False
+1glzdy6,"I got offered a data architect role, but I'm more interesting in SWE. Thoughts?",8,10,Holiday_Stage_5984,2024-11-07 19:52:58,https://www.reddit.com/r/dataengineering/comments/1glzdy6/i_got_offered_a_data_architect_role_but_im_more/,False,False,False,False
+1glvp64,Joined new company with an interesting usage of DBT + Airflow... what do you think?,9,3,Fonduemeup,2024-11-07 17:19:22,https://www.reddit.com/r/dataengineering/comments/1glvp64/joined_new_company_with_an_interesting_usage_of/,False,False,False,False
+1gly8t8,We've updated our Snowflake connector for Apache Flink,5,0,DeltaStream_io,2024-11-07 19:04:59,https://www.reddit.com/r/dataengineering/comments/1gly8t8/weve_updated_our_snowflake_connector_for_apache/,False,False,False,False
+1glnkln,Junk dimension which points to other dimensions,3,25,Wise-Ad-7492,2024-11-07 10:39:39,https://www.reddit.com/r/dataengineering/comments/1glnkln/junk_dimension_which_points_to_other_dimensions/,False,False,False,False
+1glf356,Cloud based data storage ,3,2,Tall_Boy22,2024-11-07 01:35:01,https://www.reddit.com/r/dataengineering/comments/1glf356/cloud_based_data_storage/,False,False,False,False
+1gluuth,BemiDB — Postgres read replica optimized for analytics,3,0,arjunloll,2024-11-07 16:44:11,https://github.com/BemiHQ/BemiDB,False,False,False,False
+1gm34cl,"Dagster - No hits on LinkedIn, but Mentioned Regularly?",7,6,SellGameRent,2024-11-07 22:31:04,https://www.reddit.com/r/dataengineering/comments/1gm34cl/dagster_no_hits_on_linkedin_but_mentioned/,False,False,False,False
+1gly3xy,looking for a partner to make a data bank with,3,22,Accomplished-Menu128,2024-11-07 18:59:32,https://www.reddit.com/r/dataengineering/comments/1gly3xy/looking_for_a_partner_to_make_a_data_bank_with/,False,False,False,False
+1glx4io,Open source data catalog options,3,3,RobDoesData,2024-11-07 18:18:15,https://www.reddit.com/r/dataengineering/comments/1glx4io/open_source_data_catalog_options/,False,False,False,False
+1gm1m0t,ADHD Data Learning - Help Needed,1,3,theant97,2024-11-07 21:25:45,https://www.reddit.com/r/dataengineering/comments/1gm1m0t/adhd_data_learning_help_needed/,False,False,False,False
+1glo3cw,How to load data from Mysql file to Azure Databricks ,2,0,Interesting-Today302,2024-11-07 11:15:12,https://www.reddit.com/r/dataengineering/comments/1glo3cw/how_to_load_data_from_mysql_file_to_azure/,False,False,False,False
+1glnm2l,SQL Execution Plan Learning Resources,2,1,Schlooooompy,2024-11-07 10:42:47,https://www.reddit.com/r/dataengineering/comments/1glnm2l/sql_execution_plan_learning_resources/,False,False,False,False
+1glmm6b,DataFrame or Column functions in pyspark?,2,5,PakumCakum,2024-11-07 09:27:22,https://www.reddit.com/r/dataengineering/comments/1glmm6b/dataframe_or_column_functions_in_pyspark/,False,False,False,False
+1gllm8w,Did you ever manage to train an ML model on your entire dataset? (without sampling),2,5,All-is-data3891,2024-11-07 08:09:20,https://www.reddit.com/r/dataengineering/comments/1gllm8w/did_you_ever_manage_to_train_an_ml_model_on_your/,False,False,False,False
+1glj9go,Changes in DP-600,2,1,Rare-Mix5847,2024-11-07 05:24:46,https://www.reddit.com/r/dataengineering/comments/1glj9go/changes_in_dp600/,False,False,False,False
+1gm3duk,"Semantic layer are increasing control of data governance or reducing it?
+
+
+
+
+
+",0,0,unsupervised_cluster,2024-11-07 22:42:38,https://www.reddit.com/r/dataengineering/comments/1gm3duk/semantic_layer_are_increasing_control_of_data/,False,False,False,False
+1glzaop,What Tools to Use on a Cluster Machine ,1,1,CobblerHuge4364,2024-11-07 19:49:15,https://www.reddit.com/r/dataengineering/comments/1glzaop/what_tools_to_use_on_a_cluster_machine/,False,False,False,False
+1glxg4q,Employability and Palantir Foundry? ,1,3,ocean_800,2024-11-07 18:31:51,https://www.reddit.com/r/dataengineering/comments/1glxg4q/employability_and_palantir_foundry/,False,False,False,False
+1glvy5u,Seeking Advice on Tools for Data Streaming Pipeline Design,1,1,Snoo54963,2024-11-07 17:29:48,https://www.reddit.com/r/dataengineering/comments/1glvy5u/seeking_advice_on_tools_for_data_streaming/,False,False,False,False
+1glv95n,Need Help Naavigating a DE situation ,1,1,Such_Ad_4028,2024-11-07 17:00:50,https://www.reddit.com/r/dataengineering/comments/1glv95n/need_help_naavigating_a_de_situation/,False,False,False,False
+1glsds2,Research about the data,1,0,sssilicium,2024-11-07 14:59:19,https://www.reddit.com/r/dataengineering/comments/1glsds2/research_about_the_data/,False,False,False,False
+1gllcab,Airflow workers on k8s,1,2,666blackmamba,2024-11-07 07:48:57,https://www.reddit.com/r/dataengineering/comments/1gllcab/airflow_workers_on_k8s/,False,False,False,False
+1glk7xt,Apache Airflow Audit Logs,1,1,Apprehensive-Read349,2024-11-07 06:26:23,https://www.reddit.com/r/dataengineering/comments/1glk7xt/apache_airflow_audit_logs/,False,False,False,False
+1glf7o8,Apache Airflow + Apache Spark,1,1,azaadzoy,2024-11-07 01:41:31,https://www.reddit.com/r/dataengineering/comments/1glf7o8/apache_airflow_apache_spark/,False,False,False,False
+1glef7w,Multiple Glue jobs or single,1,3,hillymark,2024-11-07 01:02:02,https://www.reddit.com/r/dataengineering/comments/1glef7w/multiple_glue_jobs_or_single/,False,False,False,False
+1gldsk9,Guidance help! Resources for system design data architecture round,1,1,PastProof4530,2024-11-07 00:32:27,https://www.reddit.com/r/dataengineering/comments/1gldsk9/guidance_help_resources_for_system_design_data/,False,False,False,False
+1glelfr,Contract DE Work - Seeking Advice,0,2,eastieLad,2024-11-07 01:10:30,https://www.reddit.com/r/dataengineering/comments/1glelfr/contract_de_work_seeking_advice/,False,False,False,False
+1glcb7p,"Recommendations for resources on practical data governance applicable for Snowflake and dbt.  Books, authors, courses, certifications, etc. ?",0,1,Afraid_Image_5444,2024-11-06 23:23:56,https://www.reddit.com/r/dataengineering/comments/1glcb7p/recommendations_for_resources_on_practical_data/,False,False,False,False

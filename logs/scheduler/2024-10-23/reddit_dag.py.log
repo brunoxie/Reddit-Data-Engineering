@@ -1,0 +1,70 @@
+[2024-10-23T01:20:04.538+0000] {processor.py:157} INFO - Started process (PID=2641) to work on /opt/airflow/dags/reddit_dag.py
+[2024-10-23T01:20:04.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-10-23T01:20:04.547+0000] {logging_mixin.py:151} INFO - [2024-10-23T01:20:04.546+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T01:20:04.575+0000] {logging_mixin.py:151} INFO - [2024-10-23T01:20:04.569+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 17, in <module>
+    dag = DAG(
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervel'
+[2024-10-23T01:20:04.577+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T01:20:04.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.088 seconds
+[2024-10-23T03:07:12.938+0000] {processor.py:157} INFO - Started process (PID=2642) to work on /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:07:12.950+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-10-23T03:07:12.980+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:07:12.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:07:13.009+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:07:13.002+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 17, in <module>
+    dag = DAG(
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervel'
+[2024-10-23T03:07:13.010+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:07:13.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.181 seconds
+[2024-10-23T03:31:48.741+0000] {processor.py:157} INFO - Started process (PID=2643) to work on /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:31:48.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-10-23T03:31:48.752+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:31:48.751+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:31:48.781+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:31:48.771+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 17, in <module>
+    dag = DAG(
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervel'
+[2024-10-23T03:31:48.782+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:31:48.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.110 seconds
+[2024-10-23T03:32:19.497+0000] {processor.py:157} INFO - Started process (PID=2644) to work on /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:32:19.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-10-23T03:32:19.511+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:32:19.510+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:32:19.536+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:32:19.529+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 17, in <module>
+    dag = DAG(
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervel'
+[2024-10-23T03:32:19.538+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:32:19.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.146 seconds
+[2024-10-23T03:32:50.290+0000] {processor.py:157} INFO - Started process (PID=2645) to work on /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:32:50.292+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-10-23T03:32:50.313+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:32:50.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:32:50.331+0000] {logging_mixin.py:151} INFO - [2024-10-23T03:32:50.327+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/reddit_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/reddit_dag.py", line 17, in <module>
+    dag = DAG(
+TypeError: __init__() got an unexpected keyword argument 'schedule_intervel'
+[2024-10-23T03:32:50.333+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-10-23T03:32:50.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.079 seconds

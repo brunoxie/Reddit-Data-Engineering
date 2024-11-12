@@ -9,7 +9,7 @@ The pipeline contains the following components:
 4. Load the transformed data into Amazon Redshift for analytics and querying.
 
 ## Architecture
-(Architecture.png)
+![Picture](Architecture.png)
 
 ## Data Source
 The data comes from Reddit API and contains responses and their properties (title/scores/number of comments/etc.) regarding the data engineering topic on Reddit.
